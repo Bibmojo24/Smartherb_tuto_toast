@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnShowToast.setOnClickListener {
-            Log.i(this, "button Show Toast is clicked !")
+            Log.i("$this", "button Show Toast is clicked !")
             Toast.makeText(this, "clicked successfully !", Toast.LENGTH_SHORT).show()
         }
     }
